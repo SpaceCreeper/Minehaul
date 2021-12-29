@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:husbandry/blank_canvas",
+  "display": {
+    "icon": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "title": {
+      "translate": "advancements.adventure.pattern_collector.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.pattern_collector.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mojang_banner_pattern",
+              "minecraft:creeper_banner_pattern",
+              "minecraft:skull_banner_pattern",
+              "minecraft:piglin_banner_pattern",
+              "minecraft:flower_banner_pattern",
+              "minecraft:globe_banner_pattern"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

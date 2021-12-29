@@ -1,0 +1,42 @@
+{
+  "item.minehaul.titanium_ingot": "Titanium Ingot",
+  "item.minehaul.raw_tungsten": "Raw Tungsten",
+  "item.minehaul.tungsten_ingot": "Tungsten Ingot",
+  "item.minehaul.alpha_ingot": "Alpha Ingot",
+  "item.minehaul.ionic_shard": "Ionic Shard",
+  "item.minehaul.glass_shard": "Glass Shard",
+
+  "item.minehaul.golden_potato": "Golden Potato",
+  "item.minehaul.rice_seeds": "Rice Seeds",
+
+  "block.minehaul.rice_plant": "Rice Plant",
+
+  "block.minehaul.experience_ore": "Experience Ore",
+  "block.minehaul.alpha_ore": "Alpha Ore",
+  "block.minehaul.alpha_block": "Block of Alpha",
+  "block.minehaul.zinc_ore": "Zinc Ore",
+  "block.minehaul.tungsten_ore": "Tungsten Ore",
+  "block.minehaul.raw_tungsten_block": "Block of Raw Tungsten",
+  "block.minehaul.tungsten_block": "Block of Tungsten",
+
+  "block.minehaul.ionic_crystal": "Ionic Crystal",
+  "block.minehaul.ionic_block": "Ionic Block",
+
+  "block.minehaul.slate": "Slate",
+
+  "block.minehaul.redwood_log": "Redwood Log",
+  "block.minehaul.stripped_redwood_log": "Stripped Redwood Log",
+  "block.minehaul.redwood_planks": "Redwood Planks",
+
+  "block.minehaul.tinted_glass_pane": "Tinted Glass Pane",
+
+  "block.minehaul.lavender": "Lavender",
+  "block.minehaul.pink_orchid": "Pink Orchid",
+  "block.minehaul.orange_orchid": "Orange Orchid",
+
+  "advancements.adventure.blank_canvas.title": "Blank Canvas",
+  "advancements.adventure.blank_canvas.description": "Craft a banner with wool and sticks.",
+
+  "advancements.adventure.pattern_collector.title": "Pattern Collector",
+  "advancements.adventure.pattern_collector.description": "Collect all the banner patterns and hold it in your inventory."
+}

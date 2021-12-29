@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_banner"
+    },
+    "title": {
+      "translate": "advancements.adventure.blank_canvas.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.blank_canvas.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_banner",
+              "minecraft:orange_banner",
+              "minecraft:yellow_banner",
+              "minecraft:lime_banner",
+              "minecraft:green_banner",
+              "minecraft:blue_banner",
+              "minecraft:light_blue_banner",
+              "minecraft:cyan_banner",
+              "minecraft:purple_banner",
+              "minecraft:magenta_banner",
+              "minecraft:pink_banner",
+              "minecraft:brown_banner",
+              "minecraft:black_banner",
+              "minecraft:gray_banner",
+              "minecraft:light_gray_banner",
+              "minecraft:white_banner"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

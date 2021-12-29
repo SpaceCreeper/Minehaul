@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minehaul:redwood_log",
+    "minehaul:stripped_redwood_log",
+    "minehaul:redwood_planks"
+  ]
+}

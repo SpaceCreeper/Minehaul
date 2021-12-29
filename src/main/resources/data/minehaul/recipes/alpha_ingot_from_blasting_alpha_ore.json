@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "alpha_ingot",
+  "ingredient": {
+    "item": "minehaul:alpha_ore"
+  },
+  "result": "minehaul:alpha_ingot",
+  "experience": 0.1,
+  "cookingtime": 100
+}

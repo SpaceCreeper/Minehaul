@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minehaul:alpha_ore",
+    "minehaul:experience_ore",
+    "minehaul:ionic_block",
+    "minehaul:ionic_crystal"
+  ]
+}

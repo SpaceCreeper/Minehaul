@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "minehaul:block/ionic_crystal",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "minehaul:block/ionic_crystal",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "minehaul:block/ionic_crystal",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "minehaul:block/ionic_crystal",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "minehaul:block/ionic_crystal"
+    },
+    "facing=west": {
+      "model": "minehaul:block/ionic_crystal",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minehaul:slate",
+    "minehaul:tungsten_ore",
+    "minehaul:raw_tungsten_block",
+    "minehaul:tungsten_block",
+    "minehaul:experience_ore",
+    "minehaul:alpha_ore",
+    "minehaul:alpha_block"
+  ]
+}

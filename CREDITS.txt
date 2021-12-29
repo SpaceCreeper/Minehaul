@@ -1,0 +1,19 @@
+MINEHAUL CREDITS
+
+================
+HEAD OF MINEHAUL
+================
+defnotjy_ (also the developer)
+
+========
+TEXTURES
+========
+Chr1splat
+defnotjy_
+
+=======
+TESTING
+=======
+
+
+and finally, thanks to Forge for the mod loader.
