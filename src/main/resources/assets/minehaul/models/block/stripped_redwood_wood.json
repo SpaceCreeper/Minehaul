@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "minehaul:block/stripped_redwood_wood",
-    "side": "minehaul:block/stripped_redwood_wood"
+    "end": "minehaul:block/stripped_redwood_log",
+    "side": "minehaul:block/stripped_redwood_log"
   }
 }
