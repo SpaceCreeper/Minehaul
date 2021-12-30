@@ -47,10 +47,13 @@ public class Minehaul {
 
     private void setupClient (final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.RICE_PLANT.get(), RenderType.cutout());
+
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.LAVENDER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PINK_ORCHID.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_ORCHID.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.IONIC_CRYSTAL.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MANGROVE_LEAVES.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event)
