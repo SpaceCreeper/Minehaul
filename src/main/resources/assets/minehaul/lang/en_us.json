@@ -26,7 +26,19 @@
 
   "block.minehaul.redwood_log": "Redwood Log",
   "block.minehaul.stripped_redwood_log": "Stripped Redwood Log",
+  "block.minehaul.redwood_wood": "Redwood Wood",
+  "block.minehaul.stripped_redwood_wood": "Stripped Redwood Wood",
   "block.minehaul.redwood_planks": "Redwood Planks",
+
+  "block.minehaul.mangrove_log": "Mangrove Log",
+  "block.minehaul.stripped_mangrove_log": "Stripped Mangrove Log",
+  "block.minehaul.mangrove_wood": "Mangrove Wood",
+  "block.minehaul.stripped_mangrove_wood": "Stripped Mangrove Wood",
+  "block.minehaul.mangrove_planks": "Mangrove Planks",
+  "block.minehaul.mangrove_leaves": "Mangrove Leaves",
+
+  "block.minehaul.mud": "Mud",
+  "block.minehaul.mud_bricks": "Mud Bricks",
 
   "block.minehaul.tinted_glass_pane": "Tinted Glass Pane",
 
