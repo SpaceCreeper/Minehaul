@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minehaul:stripped_redwood_wood"
+    }
+  ],
+  "result": {
+    "item": "minehaul:redwood_planks",
+    "count": 4
+  }
+}
