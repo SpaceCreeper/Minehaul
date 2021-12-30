@@ -61,14 +61,44 @@ public class ModBlocks {
     public static final RegistryObject<Block> STRIPPED_REDWOOD_LOG = registerBlock("stripped_redwood_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> REDWOOD_WOOD = registerBlock("redwood_wood",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> STRIPPED_REDWOOD_WOOD = registerBlock("stripped_redwood_wood",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> REDWOOD_PLANKS = registerBlock("redwood_planks",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MANGROVE_LOG = registerBlock("mangrove_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> STRIPPED_MANGROVE_LOG = registerBlock("stripped_mangrove_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MANGROVE_WOOD = registerBlock("mangrove_wood",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> STRIPPED_MANGROVE_WOOD = registerBlock("stripped_mangrove_wood",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MANGROVE_PLANKS = registerBlock("mangrove_planks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MANGROVE_LEAVES = registerBlock("mangrove_leaves",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.AZALEA_LEAVES).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MUD = registerBlock("mud",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WET_GRASS).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MUD_BRICKS = registerBlock("mud_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> TINTED_GLASS_PANE = registerBlock("tinted_glass_pane",
             () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).strength(0.3f)));
 
     public static final RegistryObject<Block> RICE_PLANT = BLOCKS.register("rice_plant",
-            () -> new RicePlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).requiresCorrectToolForDrops()));
+            () -> new RicePlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).sound(SoundType.CROP).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> LAVENDER = registerBlock("lavender",
             () -> new FlowerBlock(MobEffects.LUCK, 30,
