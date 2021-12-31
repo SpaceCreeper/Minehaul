@@ -102,6 +102,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> MUD_BRICKS = registerBlock("mud_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(3f).requiresCorrectToolForDrops()));
 
+
     public static final RegistryObject<Block> TINTED_GLASS_PANE = registerBlock("tinted_glass_pane",
             () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).strength(0.3f)));
 
