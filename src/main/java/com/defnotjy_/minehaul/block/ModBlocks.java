@@ -105,7 +105,7 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> TINTED_GLASS_PANE = registerBlock("tinted_glass_pane",
-            () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).strength(0.3f)));
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE)));
 
     public static final RegistryObject<Block> RICE_PLANT = BLOCKS.register("rice_plant",
             () -> new RicePlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).sound(SoundType.CROP).requiresCorrectToolForDrops()));

@@ -54,6 +54,8 @@ public class Minehaul {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.IONIC_CRYSTAL.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MANGROVE_LEAVES.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TINTED_GLASS_PANE.get(), RenderType.translucent());
     }
 
     private void setup(final FMLCommonSetupEvent event)
