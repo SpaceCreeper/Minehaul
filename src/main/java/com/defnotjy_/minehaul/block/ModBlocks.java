@@ -10,6 +10,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fmllegacy.RegistryObject;
@@ -93,7 +94,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> MANGROVE_LEAVES = registerBlock("mangrove_leaves",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3f).sound(SoundType.AZALEA_LEAVES).requiresCorrectToolForDrops()));
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.AZALEA_LEAVES)));
 
     //Mud
     public static final RegistryObject<Block> MUD_BLOCK = registerBlock("mud_block",
